@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: flex-start;
+    background: #493030;
+    width: 600px;
+    margin: 10px auto;
+}
+.fieldWrap {
+    color: #fff;
+    background: #508650;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    flex: 0 1 auto;
+    align-self: center;
+    min-width: 550px;
+    margin: 15px;
+}
+.text {
+    text-align: center; 
+}
+.flexWrap {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: flex-start;
+}
+.spanWrap {
+    flex: 1 1 auto;
+    align-self: center;
+    margin: 7px;
+    background: white;
+    border: 1px solid black;
+    min-height: 60px;
+    color: black;
+    text-align: center;
+}
+.goInset {
+    cursor: pointer;
+    padding: 5px;
+}
+.footInset {
+    min-height: 70px;
+}
+.logger {
+    margin-left: 15px;
+}

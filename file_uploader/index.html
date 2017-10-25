@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
+    <title>File Uploader</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="head__fu">FILE UPLOADER</div>
+        <div class="fileUploader">
+            <div class="content__fu">
+                <div class="uploadFile">
+                    <label class="labelWrap">
+                        <input type="file" multiple id="fileUpload"
+                    ></label>
+                    <img src="img/upload.png" alt="upload">
+                    <span><b>Upload File</b></span>
+                </div>
+                <ul class="listLoad">
+                   
+
+                </ul>
+            </div>
+            <div class="row justify-content-between">
+                <button type="button" class="col-2 btn btn-danger buttons">Cancel</button>
+                <button type="button" class="col-2 btn btn-primary buttons">Done</button>
+            </div>
+        </div>
+        <div id="modalWin" class="modal-fileuploader">
+            <div class="wrap-modal-element">
+                <div class="modal-img">
+                    <img src="img/Frog_on_river_4000x3000_26-09-2010_11-01am_2mb.jpg" alt="">
+                </div>
+                <div class="modal-buttons">
+                    <button class="btn cansel">Cancel</button>
+                    <button class="btn confirm">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="main.js"></script>
+</body>
+</html>

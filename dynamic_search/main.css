@@ -1,0 +1,118 @@
+li {
+    list-style-type: none;
+}
+ul {
+    margin: 0;
+}
+h4, p {
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    display: flex;
+    max-width: 620px;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    flex-flow: row wrap;
+    border: 1px solid #D6C8C8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.panel-heading {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 300px;
+    border: 10px solid #9DC5C0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #9DC5C0;
+}
+.btn {
+    flex-flow: row wrap;
+    flex: 1 1 50px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.form-control {
+    flex-flow: row wrap;
+    flex: 1 1 400px;
+    padding: 10px;
+    border: 1px solid #9DC5C0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.container {
+    margin: 20px 10px 10px;
+}
+
+/* styling of content */
+.list-group-content {
+    margin: 0;
+    padding: 0;
+}
+.list-group-content li {
+    border-bottom: 1px solid #555;
+    color: #555;
+    border-width: 0 0 1px 0;
+    min-height: 250px;
+    padding: 20px;
+}
+.lebel-info {
+    color: #fff;
+    background: rgb(28, 65, 167);
+    border-radius: 5px;
+    padding: 3px 7px;
+}
+.poster-wrap {
+    float: left;
+    height: 100%;
+
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.poster-wrap img {
+    margin-right: 15px;
+    display: block;
+    height: 200px;
+}
+
+input[type='date'] {
+    padding: 5px;
+}
+
+/*styling of button A-Z and Date */
+.filterGeneral {
+    margin-top: 10px; 
+}
+.filterAZ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filterAZ span, .filterDate span {
+    display: inline-block;
+    line-height: 25px;
+}
+.filterAZ span.arrow, .filterDate span.arrow {
+    margin-left: 5px;
+    padding-top: 7px;
+}
+.arrowAZ, .arrowDate {
+    width: 25px;
+    height: 25px;
+    transform: rotateZ(90deg);
+}
+.filterDate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow svg {
+    cursor: pointer;
+}
